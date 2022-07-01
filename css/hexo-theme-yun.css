@@ -50,7 +50,7 @@
 }
 :root {
   --hty-mode: 'light';
-  --hty-bg-color: #a9a9a9;
+  --hty-bg-color: #4d76ac;
   --hty-text-color: #333;
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
@@ -189,20 +189,20 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/picture/background/1.jpg");
+  background-image: url("/picture/background/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 1;
+  opacity: 0.8;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -210,7 +210,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -218,7 +218,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @keyframes bgFadeIn {
@@ -226,7 +226,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 :root {
@@ -2012,7 +2012,7 @@ body::before {
   --hty-secondary-text-color: #eee;
   --banner-line-color: #fff;
   --banner-char-color: #fff;
-  --post-block-bg-color: #a9a9a9;
+  --post-block-bg-color: #4d76ac;
   --smc-link-color: #e0e0e0;
   --color-mode: 'dark';
 }
@@ -2023,7 +2023,7 @@ body {
   color: var(--hty-text-color);
 }
 body::before {
-  background-image: url("/picture/background/1.jpg");
+  background-image: url("/picture/background/bg.jpg");
 }
 .char {
   background-color: rgba(0,0,0,0.5);
@@ -2033,7 +2033,7 @@ body::before {
   background-color: var(--banner-char-color);
 }
 .sidebar {
-  background-color: rgba(169,169,169,0.95);
+  background-color: rgba(77,118,172,0.95);
   background-image: none;
 }
 .search-popup {
@@ -2041,8 +2041,8 @@ body::before {
 }
 .post-card {
   color: #fff;
-  background-color: rgba(169,169,169,0.9);
-  box-shadow: 0 1px 8px rgba(169,169,169,0.1);
+  background-color: rgba(77,118,172,0.9);
+  box-shadow: 0 1px 8px rgba(77,118,172,0.1);
 }
 .page-number-basic {
   background-color: rgba(0,0,0,0.5);
